@@ -15,6 +15,7 @@ import math.*;
  * @author Samantha Lycett
  * @created 6 Feb 2014
  * @version 7 Feb 2014
+ * @version 31 Mar 2014
  */
 public class RandomMovementSimulator implements Simulator {
 	
@@ -44,7 +45,7 @@ public class RandomMovementSimulator implements Simulator {
 	
 	boolean			verbose					= true;
 	
-	String			rootname				= "simulations\\simMov";
+	String			rootname				= "simulations/simMov"; //"simulations\\simMov";
 	String			ext						= ".csv";
 	BufferedWriter	movFile_paired;
 	BufferedWriter	movFile_on;

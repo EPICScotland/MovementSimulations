@@ -5,6 +5,11 @@ import java.util.Calendar;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * class to describe a farm, and contains list of animals
+ * @author slycett
+ * @version 31 March 2014
+ */
 public class Farm {
 
 	private static int farmCount = 0;
@@ -84,6 +89,7 @@ public class Farm {
 		while ((animals.size() > 0) && (i < n)) {
 			Animal a = animals.remove(0);
 			alist.add(a);
+			i++;									// SJL 31 March 2014
 		}
 		
 		return alist;
